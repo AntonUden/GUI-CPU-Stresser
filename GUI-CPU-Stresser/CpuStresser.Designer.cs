@@ -43,7 +43,7 @@
             // 
             this.input_threads.Location = new System.Drawing.Point(100, 51);
             this.input_threads.Maximum = new decimal(new int[] {
-            30,
+            1000,
             0,
             0,
             0});
@@ -66,9 +66,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 53);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 13);
+            this.label1.Size = new System.Drawing.Size(49, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Threads [1 - 30]";
+            this.label1.Text = "Threads:";
             // 
             // btn_start
             // 
@@ -111,9 +111,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 13);
+            this.label2.Size = new System.Drawing.Size(70, 13);
             this.label2.TabIndex = 6;
-            this.label2.Text = "CPU Stresser by Zeeraa";
+            this.label2.Text = "CPU Stresser";
             // 
             // cpustresser
             // 

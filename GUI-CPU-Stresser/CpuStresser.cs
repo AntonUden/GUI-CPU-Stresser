@@ -42,6 +42,7 @@ namespace GUI_CPU_Stresser
                     output_bar.Value++;
                     output_bar.Refresh();
                 }
+                
                 output_status.Text = "Status: Running";
                 output_bar.Refresh();
             }
